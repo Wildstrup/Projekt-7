@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  align-items: center;
+  background-color: #3944bc;
+  display: flex;
+  justify-content: space-around;
+  min-height: 8vh;
+}
+
+.firstBit, .secondBit {
+  display: flex;
+  flex-direction: row;
+  font-size: 40px;
+  font-weight: bold;
+  justify-content: space-around;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+nav {
+  align-items: center;
+  background-color: #fefefe;
+  box-shadow: 0 0 2vh 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  /*  font-family: 'blabla'  */
+  justify-content: space-around;
+  min-height: 8vh;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.navLinks li {
+  list-style: none;
+}
+
+.navLinks a {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f4f4f4;
+}
