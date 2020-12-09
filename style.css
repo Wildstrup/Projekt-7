@@ -9,7 +9,7 @@ header {
   background-color: #3944bc;
   display: flex;
   justify-content: space-around;
-  min-height: 8vh;
+  min-height: 10vh;
 }
 
 .firstBit, .secondBit {
@@ -32,6 +32,10 @@ nav {
   min-height: 8vh;
 }
 
+.logo {
+  display: none;
+}
+
 .navLinks {
   display: flex;
   justify-content: space-around;
@@ -51,4 +55,21 @@ nav {
 
 body {
   background-color: #f4f4f4;
+}
+
+.burgerMenu {
+  display: none;
+}
+
+.burgerMenu div {
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin: 5px;
+}
+
+@media screen and (max-width:1750px) {
+  .navLinks {
+    width: 60%;
+  }
 }

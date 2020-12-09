@@ -50,4 +50,9 @@
           <a href="#">Mere</a>
         </li>
       </ul>
+      <div class="burgerMenu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
     </nav>
