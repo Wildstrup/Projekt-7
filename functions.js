@@ -1,7 +1,7 @@
-const navSlide = () => {
-  const burgerMenu = document.querySelector('.burgerMenu');
-  const nav = document.querySelector('.navLinks')
-  const navLinks = document.querySelectorAll('navLinks li')
+let navSlide = () => {
+  let burgerMenu = document.querySelector('.burgerMenu');
+  let nav = document.querySelector('.navLinks')
+  let navLinks = document.querySelectorAll('navLinks li')
 
   burgerMenu.addEventListener('click', () => {
     nav.classList.toggle('navActive');
