@@ -2,16 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-.firstBit, .secondBit {
-  display: flex;
-  flex-direction: row;
-  font-size: 40px;
-  font-weight: bold;
-  justify-content: space-around;
-  text-transform: uppercase;
-  width: 100%;
+  font-family: Lato;
 }
 
 nav {
@@ -19,8 +10,7 @@ nav {
   background-color: #fefefe;
   box-shadow: 0 0 2vh 0 rgba(0, 0, 0, 0.1);
   display: flex;
-  /*  font-family: 'blabla'  */
-  justify-content: space-around;
+  justify-content: flex-start;
   margin: 0;
   min-height: 8.5vh;
 }
@@ -29,6 +19,7 @@ nav {
   display: flex;
   height: 65px;
   justify-content: flex-start;
+  margin: 0 3vw 0 14vw;
 }
 
 .navLinks {
@@ -65,7 +56,43 @@ body {
 }
 
 section {
-  margin: 20px 280px;
+  margin: 3vh 14vw;
+}
+
+.historyHeader {
+  background: blue;
+  color: white;
+  display: flex;
+  font-size: 50px;
+  height: 100px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.mainLogo img {
+  align-items: center;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  width: 30%;
+}
+
+.primaryBtn a {
+  align-items: center;
+  background-color: lightblue;
+  display: flex;
+  font-size: 50px;
+  height: 100px;
+  justify-content: center;
+  text-decoration: none;
+  width: 300px;
+}
+
+.introText {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  width: 50%;
 }
 
 @media screen and (max-width:1750px) {
@@ -81,7 +108,6 @@ section {
 
   .navLinks {
     align-items: center;
-    /*background-color: navcolor;*/
     background-color: white;
     display: flex;
     flex-direction:column;
