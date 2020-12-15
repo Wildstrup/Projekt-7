@@ -70,24 +70,26 @@ body {
   filter: brightness(110%);
 }
 
-section {
-  margin: 3vh 14vw;
-}
 
 /* Navigation ends here */
 
 /* The main section starts here for the content */
+
+section {
+  margin: 3vh 14vw;
+}
 
 .introHeader {
   display: flex;
 }
 
 .historyHeader {
+  align-items: center;
   background: blue;
   color: white;
   display: flex;
   font-size: 50px;
-  height: 100px;
+  height: 200px;
   justify-content: center;
   width: 100%;
 }
@@ -102,13 +104,13 @@ section {
 
 .navLinks2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   width: 100%;
 }
 
 .navLinks2 li {
   list-style: none;
-  border: 1px solid black;
+  border: 1px solid #aaa;
 }
 
 .navLinks2 a {
@@ -116,7 +118,7 @@ section {
   display: flex;
   justify-content: space-around;
   font-size: 25px;
-  padding: 12px;
+  padding: 25px 12px;
   text-decoration: none;
   width: 100%;
 }
@@ -247,7 +249,7 @@ h2 {
   border-radius: 8px;
   border: 1px solid #e2e2e2;
   margin: 10px auto;
-  max-width: 8000px;
+  max-width: 90%;
   min-height: 200px;
 }
 

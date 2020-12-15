@@ -9,16 +9,17 @@
     </div>
     <div class="historyNav">
       <ul class="navLinks2">
-        <li><a href="#">Historie</a></li>
+        <li><a href="index.php">Historie</a></li>
         <li><a href="#">Miraklet i Madrid</a></li>
-        <li><a href="#">Tidslinje</a></li>
-        <li><a href="#">Meritter</li>
+        <li><a href="1887.php">Tidslinje</a></li>
+        <li><a href="1900.php">Meritter</a></li>
         <li><a href="#">Spillerstatistikker</a></li>
         <li><a href="#">OB's trænere</a></li>
         <li><a href="#">Fanshop</a></li>
       </ul>
       </div>
     </div>
+
     <div class="introHeader">
       <div class="mainLogo">
         <img src="img/obLogo.png" alt="Et billede af OB's logo">
@@ -31,7 +32,7 @@
       </div>
     </div>
       <div class="centerBtn">
-        <button class="primaryBtn" type="button" name="button"><a href="#">Klik her</a></button>
+        <button class="primaryBtn" type="button" name="button"><a href="1887.php">Klik her</a></button>
       </div>
   </section>
   <article>

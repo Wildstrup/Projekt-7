@@ -7,7 +7,7 @@
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <script src="functions.js" defer> </script>
     <meta charset="utf-8">
-    <title>OB's tidsline</title>
+    <title>OB's tidslinje</title>
   </head>
 
   <body>
