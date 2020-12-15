@@ -5,6 +5,8 @@
   font-family: Lato;
 }
 
+/* This will be the css for the navigation */
+
 nav {
   align-items: center;
   background-color: #fefefe;
@@ -33,9 +35,10 @@ nav {
 }
 
 .navLinks a {
+  color: #121212;
   font-size: 18px;
   font-weight: bold;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   text-decoration: none;
 }
 
@@ -55,9 +58,25 @@ body {
   width: 25px;
 }
 
+.tickets {
+  background: lightblue;
+  border-radius: 16px;
+  border: 1px solid #121212;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.tickets:hover{
+  filter: brightness(110%);
+}
+
 section {
   margin: 3vh 14vw;
 }
+
+/* Navigation ends here */
+
+/* The main section starts here for the content */
 
 .historyHeader {
   background: blue;
@@ -80,6 +99,7 @@ section {
 .primaryBtn a {
   align-items: center;
   background-color: lightblue;
+  color: black;
   display: flex;
   font-size: 50px;
   height: 100px;
@@ -88,11 +108,108 @@ section {
   width: 300px;
 }
 
+.primaryBtn a:hover {
+  filter: brightness(120%);
+}
+
 .introText {
   display: flex;
   font-size: 40px;
   justify-content: center;
   width: 50%;
+}
+
+/* Main section ends here */
+
+/* The note section starts here */
+
+.flex {
+  display: flex:
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.itemsStart {
+  align-items: flex-start;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.noteContainer {
+  border-radius: 8px;
+  border: 1px solid #e2e2e2;
+  margin: 10px auto;
+  max-width: 8000px;
+  min-height: 200px;
+}
+
+.noteContainerTitle {
+  background: lightblue;
+  border-bottom: 1px solid #ebebeb;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-top: 0;
+  padding: 10px 20px;
+}
+
+.notes {
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.noteNew {
+  border-top: 1px solid #ababab;
+  margin: 10px 20px;
+  padding-top: 20px;
+}
+
+.yourNote {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.noteBody {
+  color: #4a5568;
+  line-height: 1.4;
+  margin: 0;
+  padding-right: 10px;
+}
+
+.noteInput {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  color: #4a5568;
+  font-size: 12px;
+  line-height: 1.4;
+  padding: 8px;
+  width: 100%;
+}
+
+.noteInput:focus {
+  border-color: #5c6ac4;
+  outline: none;
+}
+
+.noteSubmit {
+  background: blue;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 5px;
+  padding: 10px 16px;
+  text-transform: uppercase;
+}
+
+.noteSubmit:hover,
+.noteSubmit:focus {
+  filter: brightness(130%);
 }
 
 @media screen and (max-width:1750px) {
