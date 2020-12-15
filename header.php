@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="The text type we want" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <script src="functions.js" defer> </script>
     <meta charset="utf-8">
     <title>OB's tidsline</title>
   </head>
+
   <body>
+
     <nav>
       <div class="logo">
-        <img src="" alt="">
+        <img src="img/obLogo.png" alt="A picture of OB's logo">
       </div>
       <ul class="navLinks">
         <li>
@@ -40,9 +42,11 @@
           <a href="#">Mere</a>
         </li>
       </ul>
+      </div>
       <div class="burgerMenu">
         <div class="line1"></div>
         <div class="line2"></div>
         <div class="line3"></div>
       </div>
+      <button class="tickets" type="button" name="button">Billetter og sæsonkort</button>
     </nav>

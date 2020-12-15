@@ -78,6 +78,10 @@ section {
 
 /* The main section starts here for the content */
 
+.introHeader {
+  display: flex;
+}
+
 .historyHeader {
   background: blue;
   color: white;
@@ -85,15 +89,50 @@ section {
   font-size: 50px;
   height: 100px;
   justify-content: center;
+  width: 100%;
+}
+
+.historyNav {
+  background-color: #fefefe;
+  box-shadow: 0 0 2vh 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
   margin-bottom: 20px;
+}
+
+.navLinks2 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.navLinks2 li {
+  list-style: none;
+  border: 1px solid black;
+}
+
+.navLinks2 a {
+  color: #121212;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  padding: 12px;
+  text-decoration: none;
+  width: 100%;
 }
 
 .mainLogo img {
   align-items: center;
   display: flex;
   height: auto;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.centerBtn {
+  display: flex;
   justify-content: center;
-  width: 30%;
+  margin-bottom: 100px;
 }
 
 .primaryBtn a {
@@ -102,10 +141,11 @@ section {
   color: black;
   display: flex;
   font-size: 50px;
-  height: 100px;
+  height: 80px;
   justify-content: center;
   text-decoration: none;
-  width: 300px;
+  text-align: center;
+  width: 250px;
 }
 
 .primaryBtn a:hover {
@@ -113,10 +153,74 @@ section {
 }
 
 .introText {
+  align-items: center;
   display: flex;
   font-size: 40px;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+article {
+  margin: 3vh 14vw;
+}
+
+h2 {
+  font-size: 50px;
+  display: flex;
   justify-content: center;
-  width: 50%;
+  margin: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.miracle {
+  align-items: center;
+  display: flex;
+  height: auto;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.textBox {
+  background: white;
+  margin-top: 0;
+}
+
+.centerText {
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  height: 100px;
+  justify-content: center;
+}
+
+.pHead {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 0 10px 10px;
+}
+
+.pBody {
+  font-size: 20px;
+  padding: 0 0 20px 10px;
+}
+
+.pBtn {
+  align-items: center;
+  background-color: lightblue;
+  color: black;
+  display: flex;
+  font-size: 20px;
+  height: 50px;
+  justify-content: center;
+  margin-bottom: 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 150px;
+}
+
+.pBtn:hover {
+  filter: brightness(120%);
 }
 
 /* Main section ends here */
