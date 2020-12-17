@@ -12,7 +12,7 @@
         <li><a href="index.php">Historie</a></li>
         <li><a href="#">Miraklet i Madrid</a></li>
         <li><a href="1887.php">Tidslinje</a></li>
-        <li><a href="1900.php">Meritter</a></li>
+        <li><a href="#">Meritter</a></li>
         <li><a href="#">Spillerstatistikker</a></li>
         <li><a href="#">OB's trænere</a></li>
         <li><a href="#">Fanshop</a></li>
@@ -36,7 +36,7 @@
   </section>
   <article>
     <h2>Miraklet i Madrid</h2>
-    <img class="miracle" src="img/miraklet.jpg" alt="Miraklet i Madrid">
+    <img class="widePicture" src="img/miraklet.jpg" alt="Miraklet i Madrid">
     <div class="textBox">
         <p class="centerText">Miraklet i Madrid, det sted hvor drømme kan gå i
           opfyldelse, selv for udebaneholdene</p>

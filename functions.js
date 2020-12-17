@@ -12,6 +12,18 @@ let navSlide = () => {
 navSlide();
 
 
+var checkBox = document.getElementById("#checkBox");
+var hiddenInputs = document.getElementsById('hidden');
+
+for(var i = 0; != hiddenInputs.length; i++) {
+  if(checkBox.checked) {
+    hiddenInputs[i].style.display = "block";
+  } else {
+    hiddenInputs[i].style.display = "none";
+  }
+}
+
+
 let submit = document.querySelector('.noteSubmit');
 let noteList = document.querySelector('.notes');
 let noteInput = document.querySelector('.noteInput');

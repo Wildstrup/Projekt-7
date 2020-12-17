@@ -80,7 +80,58 @@ body {
 
 /* The navigation for the timelines */
 
+.calendar {
+  background: $bodyColor;
+  padding: 50px 25px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
 
+.calendar ul {
+  list-style: none;
+}
+
+.calendar a {
+  color: $textColor;
+  text-decoration: none;
+}
+
+.calendar ul li {
+  color: $textColor;
+  font-size: 50px;
+}
+
+.calendar .prev {
+  float: left;
+}
+
+.calendar .next {
+  float: right;
+}
+
+.hidden {
+  display: none;
+}
+
+.years {
+  background: #ddd;
+}
+
+.years a {
+  color: $textColor;
+  text-decoration: none;
+}
+
+.years li {
+  border: 1px solid $textColor;
+  display: inline-block;
+  height: 50px;
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+  width: 33.15%;
+}
 
 /* Navigation for timelines ends here */
 
