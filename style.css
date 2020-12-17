@@ -148,8 +148,13 @@ body {
   float: right;
 }
 
-.hidden {
+span {
+  cursor: pointer;
+}
+
+#hidden {
   display: none;
+  margin-top: 10px;
 }
 
 .years {
@@ -409,6 +414,10 @@ h2 {
     margin: 3vh 3vw;
   }
 
+  article {
+    margin: 3vh 3vw;
+  }
+
   /* The navigation starts */
   .navLinks {
     align-items: center;
@@ -465,7 +474,7 @@ h2 {
   color: #121212;
   display: flex;
   justify-content: space-around;
-  font-size: 16px;
+  font-size: 20px;
   padding: 25px 12px;
   text-decoration: none;
   width: 100%;
@@ -503,7 +512,7 @@ h2 {
   float: right;
 }
 
-.hidden {
+#hidden {
   display: none;
 }
 

@@ -12,20 +12,6 @@ let navSlide = () => {
 navSlide();
 
 
-let navSlide2 = () => {
-  let menu = document.querySelector('.menu');
-  let nav2 = document.querySelector('.navLinks2')
-  let navLinks2 = document.querySelectorAll('navLinks2 li')
-
-  menu.addEventListener('click', () => {
-    nav2.classList.toggle('navActive');
-    burgerMenu.classList.toggle('toggle');
-  });
-}
-
-navSlide2();
-
-
 let submit = document.querySelector('.noteSubmit');
 let noteList = document.querySelector('.notes');
 let noteInput = document.querySelector('.noteInput');
@@ -65,4 +51,15 @@ let saved = localStorage.getItem('noteListing');
 
 if (saved) {
   noteList.innerHTML = saved;
+}
+
+var x;
+function show_hide() {
+  if(x==1) {
+    document.getElementById("hidden").style.display="block";
+    return x=0;
+  } else {
+    document.getElementById("hidden").style.display="none";
+    return x=1;
+  }
 }
