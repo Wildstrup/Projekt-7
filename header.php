@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="style.css">
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <script src="functions.js" defer> </script>
-    <meta charset="utf-8">
     <title>OB's tidslinje</title>
   </head>
 
@@ -17,30 +16,14 @@
         <img src="img/obLogo.png" alt="A picture of OB's logo">
       </div>
       <ul class="navLinks">
-        <li>
-          <a href="#">Kampe</a>
-        </li>
-        <li>
-          <a href="#">Førsteholdet</a>
-        </li>
-        <li>
-          <a href="#">Fans</a>
-        </li>
-        <li>
-          <a href="#">Akademi
-        </li>
-        <li>
-          <a href="#">Øens hold</a>
-        </li>
-        <li>
-          <a href="#">Business</a>
-        </li>
-        <li>
-          <a href="#">Fanshop</a>
-        </li>
-        <li>
-          <a href="#">Mere</a>
-        </li>
+        <li><a href="#">Kampe</a></li>
+        <li><a href="#">Førsteholdet</a></li>
+        <li><a href="#">Fans</a></li>
+        <li><a href="#">Akademi</a></li>
+        <li><a href="#">Øens hold</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Fanshop</a></li>
+        <li><a href="#">Mere</a></li>
       </ul>
       <div class="burgerMenu">
         <div class="line1"></div>
