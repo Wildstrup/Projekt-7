@@ -118,6 +118,10 @@ body {
 
 /* Headermenu ends here */
 /* The navigation for the timelines */
+section .timelineImg {
+  width: 100%;
+}
+
 .calendar {
   background: #f4f4f4;
   padding: 50px 25px;
@@ -458,111 +462,112 @@ h2 {
   .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
   }
-}
-/* The navigation ends here */
-/* The headermenu starts here */
-.historyHeader {
-  font-size: 40px;
-}
 
-.navLinks2 li {
-  list-style: none;
-  border: 1px solid #aaa;
-}
+  /* The navigation ends here */
+  /* The headermenu starts here */
+  .historyHeader {
+    font-size: 40px;
+  }
 
-.navLinks2 a {
-  color: #121212;
-  display: flex;
-  justify-content: space-around;
-  font-size: 20px;
-  padding: 25px 12px;
-  text-decoration: none;
-  width: 100%;
-}
+  .navLinks2 li {
+    list-style: none;
+    border: 1px solid #aaa;
+  }
 
-/* The headermenu ends here */
-/* The navigation for the timelines */
-.calendar {
-  background: #f4f4f4;
-  padding: 50px 25px;
-  text-align: center;
-  text-decoration: none;
-  width: 100%;
-}
+  .navLinks2 a {
+    color: #121212;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 25px 12px;
+    text-decoration: none;
+    width: 100%;
+  }
 
-.calendar ul {
-  list-style: none;
-}
+  /* The headermenu ends here */
+  /* The navigation for the timelines */
+  .calendar {
+    background: #f4f4f4;
+    padding: 50px 25px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+  }
 
-.calendar a {
-  color: #121212;
-  text-decoration: none;
-}
+  .calendar ul {
+    list-style: none;
+  }
 
-.calendar ul li {
-  color: #121212;
-  font-size: 50px;
-}
+  .calendar a {
+    color: #121212;
+    text-decoration: none;
+  }
 
-.calendar .prev {
-  float: left;
-}
+  .calendar ul li {
+    color: #121212;
+    font-size: 50px;
+  }
 
-.calendar .next {
-  float: right;
-}
+  .calendar .prev {
+    float: left;
+  }
 
-#hidden {
-  display: none;
-}
+  .calendar .next {
+    float: right;
+  }
 
-.years {
-  background: #ddd;
-}
+  #hidden {
+    display: none;
+  }
 
-.years a {
-  color: #121212;
-  text-decoration: none;
-}
+  .years {
+    background: #ddd;
+  }
 
-.years li {
-  border: 1px solid #121212;
-  display: inline-block;
-  height: 50px;
-  list-style: none;
-  text-align: center;
-  padding: 10px;
-  width: 24.45%;
-}
+  .years a {
+    color: #121212;
+    text-decoration: none;
+  }
 
-/* Navigation for timelines ends here */
-/* The main section */
-.mainLogo img {
-  width: 80%;
-}
+  .years li {
+    border: 1px solid #121212;
+    display: inline-block;
+    height: 50px;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    width: 24.45%;
+  }
 
-.introText {
-  font-size: 18px;
-}
+  /* Navigation for timelines ends here */
+  /* The main section */
+  .mainLogo img {
+    width: 80%;
+  }
 
-h2 {
-  font-size: 35px;
-}
+  .introText {
+    font-size: 18px;
+  }
 
-.mainText {
-  font-size: 15px;
-  height: 100px;
-  padding: 0 20px 0 20px;
-}
+  h2 {
+    font-size: 35px;
+  }
 
-.pHead {
-  font-size: 20px;
-  padding: 10px 0 10px 10px;
-}
+  .mainText {
+    font-size: 15px;
+    height: 100px;
+    padding: 0 20px 0 20px;
+  }
 
-.pBody {
-  font-size: 15px;
-  padding: 0 10px 20px 10px;
+  .pHead {
+    font-size: 20px;
+    padding: 10px 0 10px 10px;
+  }
+
+  .pBody {
+    font-size: 15px;
+    padding: 0 10px 20px 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

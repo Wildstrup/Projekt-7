@@ -1,3 +1,4 @@
+// Navigation
 let navSlide = () => {
   let burgerMenu = document.querySelector('.burgerMenu');
   let nav = document.querySelector('.navLinks')
@@ -11,7 +12,7 @@ let navSlide = () => {
 
 navSlide();
 
-
+// Note system
 let submit = document.querySelector('.noteSubmit');
 let noteList = document.querySelector('.notes');
 let noteInput = document.querySelector('.noteInput');
@@ -53,6 +54,7 @@ if (saved) {
   noteList.innerHTML = saved;
 }
 
+// Show and hide calendar
 var x;
 function show_hide() {
   if(x==1) {

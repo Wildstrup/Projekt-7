@@ -128,6 +128,10 @@ body {
 
 /* The navigation for the timelines */
 
+section .timelineImg {
+  width: 100%;
+}
+
 .calendar {
   background: $bodyColor;
   padding: 50px 25px;
@@ -474,22 +478,21 @@ h2 {
   .toggle .line3 {
     transform: rotate(45deg) translate(-5px,-6px);
   }
-}
 
 /* The navigation ends here */
 
 /* The headermenu starts here */
 
-.historyHeader {
+  .historyHeader {
   font-size: 40px;
 }
 
-.navLinks2 li {
+  .navLinks2 li {
   list-style: none;
   border: 1px solid #aaa;
 }
 
-.navLinks2 a {
+  .navLinks2 a {
   color: $textColor;
   display: flex;
   justify-content: space-around;
@@ -503,7 +506,7 @@ h2 {
 
 /* The navigation for the timelines */
 
-.calendar {
+  .calendar {
   background: $bodyColor;
   padding: 50px 25px;
   text-align: center;
@@ -511,42 +514,42 @@ h2 {
   width: 100%;
 }
 
-.calendar ul {
+  .calendar ul {
   list-style: none;
 }
 
-.calendar a {
+  .calendar a {
   color: $textColor;
   text-decoration: none;
 }
 
-.calendar ul li {
+  .calendar ul li {
   color: $textColor;
   font-size: 50px;
 }
 
-.calendar .prev {
+  .calendar .prev {
   float: left;
 }
 
-.calendar .next {
+  .calendar .next {
   float: right;
 }
 
-#hidden {
+  #hidden {
   display: none;
 }
 
-.years {
+  .years {
   background: #ddd;
 }
 
-.years a {
+  .years a {
   color: $textColor;
   text-decoration: none;
 }
 
-.years li {
+  .years li {
   border: 1px solid $textColor;
   display: inline-block;
   height: 50px;
@@ -560,30 +563,31 @@ h2 {
 
 /* The main section */
 
-.mainLogo img {
+  .mainLogo img {
   width: 80%;
 }
 
-.introText {
+  .introText {
   font-size: 18px;
 }
 
-h2 {
+  h2 {
   font-size: 35px;
 }
 
-.mainText {
+  .mainText {
   font-size: 15px;
   height: 100px;
   padding: 0 20px 0 20px;
 }
 
-.pHead {
+  .pHead {
   font-size: 20px;
   padding: 10px 0 10px 10px;
 }
 
-.pBody {
+  .pBody {
   font-size: 15px;
   padding: 0 10px 20px 10px;
+}
 }

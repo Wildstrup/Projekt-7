@@ -1,12 +1,3 @@
-<section>
-  <div>
-    <div class="calendar">
-      <ul>
-        <li class="prev"><a href="index.php">&#10096;</a></li>
-        <li class="next"><a href="1900.php">&#10097;</a></li>
-        <li>
-          <span onclick="show_hide()">1887&#8681;</span>
-        </li>
       </ul>
     </div>
     <div id="hidden">

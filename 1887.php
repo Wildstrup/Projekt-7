@@ -6,6 +6,17 @@
   include 'sectionheader.php';
  ?>
 
+<section>
+  <div>
+    <img class="timelineImg" src="img/timeline1.jpg" alt="1887 i tidslinjen">
+    <div class="calendar">
+      <ul>
+        <li class="prev"><a href="index.php">&#10096;</a></li>
+        <li class="next"><a href="1900.php">&#10097;</a></li>
+        <li>
+          <span onclick="show_hide()">1887&#8681;</span>
+        </li>
+
 <?php
   include 'calendar.php';
 ?>
