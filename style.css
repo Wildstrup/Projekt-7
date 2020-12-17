@@ -71,6 +71,8 @@ body {
 }
 
 /* Navigation ends here */
+/* The navigation for the timelines */
+/* Navigation for timelines ends here */
 /* The footer starts here */
 footer {
   background: #065190;
@@ -91,7 +93,7 @@ section {
 .historyHeader {
   align-items: center;
   background: #065190;
-  color: white;
+  color: #fefefe;
   display: flex;
   font-size: 50px;
   height: 200px;
@@ -179,17 +181,33 @@ h2 {
   text-align: center;
 }
 
-.miracle {
+.widePicture {
   align-items: center;
   display: flex;
   height: auto;
-  justify-content: flex-start;
+  justify-content: space-around;
   width: 100%;
 }
 
+.tallPicture {
+  align-items: center;
+  display: flex;
+  height: auto;
+  justify-content: space-around;
+  width: 40%;
+}
+
 .textBox {
-  background: white;
+  background: #fefefe;
   margin-top: 0;
+}
+
+.textBox2 {
+  background: #fefefe;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  width: 100%;
 }
 
 .mainText {
@@ -334,7 +352,7 @@ h2 {
 
   .navLinks {
     align-items: center;
-    background-color: white;
+    background-color: #fefefe;
     display: flex;
     flex-direction: column;
     height: 90vh;
