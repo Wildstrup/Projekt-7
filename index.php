@@ -18,7 +18,6 @@
         <li><a href="#">Fanshop</a></li>
       </ul>
       </div>
-    </div>
 
     <div class="introHeader">
       <div class="mainLogo">

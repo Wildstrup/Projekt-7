@@ -42,7 +42,6 @@
           <a href="#">Mere</a>
         </li>
       </ul>
-      </div>
       <div class="burgerMenu">
         <div class="line1"></div>
         <div class="line2"></div>

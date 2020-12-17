@@ -1,3 +1,8 @@
+$white: #fefefe;
+$bodyColor: #f4f4f4;
+$blue: #065190;
+$textColor: #121212;
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,9 +11,10 @@
 }
 
 /* This will be the css for the navigation */
+
 nav {
   align-items: center;
-  background-color: #fefefe;
+  background-color: $white;
   box-shadow: 0 0 2vh 0 rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: flex-start;
@@ -34,7 +40,7 @@ nav {
 }
 
 .navLinks a {
-  color: #121212;
+  color: $textColor;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -42,7 +48,7 @@ nav {
 }
 
 body {
-  background-color: #f4f4f4;
+  background-color: $bodyColor;
 }
 
 .burgerMenu {
@@ -58,28 +64,33 @@ body {
 }
 
 .tickets {
-  background: #065190;
+  background: $blue;
   border-radius: 16px;
   border: 1px solid #232323;
-  color: #fefefe;
+  color: $white;
   font-size: 16px;
   padding: 8px;
 }
 
-.tickets:hover {
+.tickets:hover{
   filter: brightness(110%);
 }
 
+
 /* Navigation ends here */
+
 /* The footer starts here */
+
 footer {
-  background: #065190;
+  background: $blue;
   height: 300px;
   width: 100%;
 }
 
 /* Footer ends here */
+
 /* The main section starts here for the content */
+
 section {
   margin: 3vh 14vw;
 }
@@ -90,7 +101,7 @@ section {
 
 .historyHeader {
   align-items: center;
-  background: #065190;
+  background: $blue;
   color: white;
   display: flex;
   font-size: 50px;
@@ -100,7 +111,7 @@ section {
 }
 
 .historyNav {
-  background-color: #fefefe;
+  background-color: $white;
   box-shadow: 0 0 2vh 0 rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-around;
@@ -119,7 +130,7 @@ section {
 }
 
 .navLinks2 a {
-  color: #121212;
+  color: $textColor;
   display: flex;
   justify-content: space-around;
   font-size: 25px;
@@ -144,8 +155,8 @@ section {
 
 .primaryBtn a {
   align-items: center;
-  background-color: #065190;
-  color: #fefefe;
+  background-color: $blue;
+  color: $white;
   display: flex;
   font-size: 50px;
   height: 80px;
@@ -214,8 +225,8 @@ h2 {
 
 .pBtn {
   align-items: center;
-  background-color: #065190;
-  color: #fefefe;
+  background-color: $blue;
+  color: $white;
   display: flex;
   font-size: 20px;
   height: 50px;
@@ -231,7 +242,9 @@ h2 {
 }
 
 /* Main section ends here */
+
 /* The note section starts here */
+
 .flex {
   display: flex;
 }
@@ -257,11 +270,11 @@ h2 {
 }
 
 .noteContainerTitle {
-  background: #065190;
+  background: $blue;
   border-bottom: 1px solid #ebebeb;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  color: #fefefe;
+  color: $white;
   margin-top: 0;
   padding: 10px 20px;
 }
@@ -306,10 +319,10 @@ h2 {
 }
 
 .noteSubmit {
-  background: #065190;
+  background: $blue;
   border-radius: 4px;
   border: none;
-  color: #fefefe;
+  color: $white;
   cursor: pointer;
   font-size: 12px;
   margin-top: 5px;
@@ -322,12 +335,13 @@ h2 {
   filter: brightness(130%);
 }
 
-@media screen and (max-width: 1750px) {
+@media screen and (max-width:1750px) {
   .navLinks {
     width: 60%;
   }
 }
-@media screen and (max-width: 1070px) {
+
+@media screen and (max-width:1070px) {
   body {
     overflow-x: hidden;
   }
@@ -336,7 +350,7 @@ h2 {
     align-items: center;
     background-color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     height: 90vh;
     position: absolute;
     right: 0px;
@@ -361,16 +375,12 @@ h2 {
   }
 
   .toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
+    transform: rotate(-45deg) translate(-5px,6px);
   }
-
   .toggle .line2 {
     opacity: 0;
   }
-
   .toggle .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
+    transform: rotate(45deg) translate(-5px,-6px);
   }
 }
-
-/*# sourceMappingURL=style.css.map */
