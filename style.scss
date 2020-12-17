@@ -195,9 +195,30 @@ span {
 /* The footer starts here */
 
 footer {
+  align-items: center;
   background: $blue;
-  height: 300px;
+  display: flex;
+  height: 200px;
+  justify-content: center;
   width: 100%;
+}
+
+.sponsorBox {
+  color: $white;
+  flex-direction: row;
+  height: 60px;
+  margin: 3vh 14vw;
+  width: 50%;
+}
+
+.sponsorBox ul {
+  list-style: none;
+}
+
+.sponsorBox ul li a {
+  align-items: center;
+  color: $white;
+  text-decoration: none;
 }
 
 /* Footer ends here */
@@ -487,10 +508,14 @@ h2 {
   font-size: 40px;
 }
 
+  .navLinks2 {
+    display: none;
+  }
+
   .navLinks2 li {
   list-style: none;
   border: 1px solid #aaa;
-}
+  }
 
   .navLinks2 a {
   color: $textColor;
@@ -500,7 +525,7 @@ h2 {
   padding: 25px 12px;
   text-decoration: none;
   width: 100%;
-}
+  }
 
 /* The headermenu ends here */
 
@@ -516,7 +541,7 @@ h2 {
 
   .calendar ul {
   list-style: none;
-}
+  }
 
   .calendar a {
   color: $textColor;

@@ -183,9 +183,30 @@ span {
 /* Navigation for timelines ends here */
 /* The footer starts here */
 footer {
+  align-items: center;
   background: #065190;
-  height: 300px;
+  display: flex;
+  height: 200px;
+  justify-content: center;
   width: 100%;
+}
+
+.sponsorBox {
+  color: #fefefe;
+  flex-direction: row;
+  height: 60px;
+  margin: 3vh 14vw;
+  width: 50%;
+}
+
+.sponsorBox ul {
+  list-style: none;
+}
+
+.sponsorBox ul li a {
+  align-items: center;
+  color: #fefefe;
+  text-decoration: none;
 }
 
 /* Footer ends here */
@@ -467,6 +488,10 @@ h2 {
   /* The headermenu starts here */
   .historyHeader {
     font-size: 40px;
+  }
+
+  .navLinks2 {
+    display: none;
   }
 
   .navLinks2 li {
