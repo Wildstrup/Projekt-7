@@ -78,6 +78,54 @@ body {
 
 /* Navigation ends here */
 
+/* The headermenu */
+
+.introHeader {
+  display: flex;
+}
+
+.historyHeader {
+  align-items: center;
+  background: $blue;
+  color: $white;
+  display: flex;
+  font-size: 50px;
+  height: 200px;
+  justify-content: center;
+  width: 100%;
+}
+
+.historyNav {
+  background-color: $white;
+  box-shadow: 0 0 2vh 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.navLinks2 {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.navLinks2 li {
+  list-style: none;
+  border: 1px solid #aaa;
+}
+
+.navLinks2 a {
+  color: $textColor;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  padding: 25px 12px;
+  text-decoration: none;
+  width: 100%;
+}
+
+/* Headermenu ends here */
+
 /* The navigation for the timelines */
 
 .calendar {
@@ -151,50 +199,6 @@ section {
   margin: 3vh 14vw;
 }
 
-.introHeader {
-  display: flex;
-}
-
-.historyHeader {
-  align-items: center;
-  background: $blue;
-  color: $white;
-  display: flex;
-  font-size: 50px;
-  height: 200px;
-  justify-content: center;
-  width: 100%;
-}
-
-.historyNav {
-  background-color: $white;
-  box-shadow: 0 0 2vh 0 rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
-}
-
-.navLinks2 {
-  display: flex;
-  justify-content: flex-start;
-  width: 100%;
-}
-
-.navLinks2 li {
-  list-style: none;
-  border: 1px solid #aaa;
-}
-
-.navLinks2 a {
-  color: $textColor;
-  display: flex;
-  justify-content: space-around;
-  font-size: 25px;
-  padding: 25px 12px;
-  text-decoration: none;
-  width: 100%;
-}
-
 .mainLogo img {
   align-items: center;
   display: flex;
@@ -258,7 +262,7 @@ h2 {
   align-items: center;
   display: flex;
   height: auto;
-  justify-content: space-around;
+  justify-content: flex-start;
   width: 40%;
 }
 
@@ -418,6 +422,12 @@ h2 {
     overflow-x: hidden;
   }
 
+  section {
+    margin: 3vh 3vw;
+  }
+
+/* The navigation starts */
+
   .navLinks {
     align-items: center;
     background-color: $white;
@@ -455,4 +465,116 @@ h2 {
   .toggle .line3 {
     transform: rotate(45deg) translate(-5px,-6px);
   }
+}
+
+/* The navigation ends here */
+
+/* The headermenu starts here */
+
+.historyHeader {
+  font-size: 40px;
+}
+
+.navLinks2 li {
+  list-style: none;
+  border: 1px solid #aaa;
+}
+
+.navLinks2 a {
+  color: $textColor;
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  padding: 25px 12px;
+  text-decoration: none;
+  width: 100%;
+}
+
+/* The headermenu ends here */
+
+/* The navigation for the timelines */
+
+.calendar {
+  background: $bodyColor;
+  padding: 50px 25px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.calendar ul {
+  list-style: none;
+}
+
+.calendar a {
+  color: $textColor;
+  text-decoration: none;
+}
+
+.calendar ul li {
+  color: $textColor;
+  font-size: 50px;
+}
+
+.calendar .prev {
+  float: left;
+}
+
+.calendar .next {
+  float: right;
+}
+
+.hidden {
+  display: none;
+}
+
+.years {
+  background: #ddd;
+}
+
+.years a {
+  color: $textColor;
+  text-decoration: none;
+}
+
+.years li {
+  border: 1px solid $textColor;
+  display: inline-block;
+  height: 50px;
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+  width: 24.45%;
+}
+
+/* Navigation for timelines ends here */
+
+/* The main section */
+
+.mainLogo img {
+  width: 80%;
+}
+
+.introText {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.mainText {
+  font-size: 15px;
+  height: 100px;
+  padding: 0 20px 0 20px;
+}
+
+.pHead {
+  font-size: 20px;
+  padding: 10px 0 10px 10px;
+}
+
+.pBody {
+  font-size: 15px;
+  padding: 0 10px 20px 10px;
 }

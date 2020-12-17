@@ -24,10 +24,10 @@
     <div>
       <div class="calendar">
         <ul>
-          <li class="prev"><a href="1887.php">&#10096;</a></li>
-          <li class="next"><a href="1910.php">&#10097;</a></li>
+          <li class="prev"><a href="1920.php">&#10096;</a></li>
+          <li class="next"><a href="#">&#10097;</a></li>
           <li>
-            <span>1900&#8681;</span>
+            <span>1930&#8681;</span>
           </li>
         </ul>
       </div>
@@ -38,15 +38,15 @@
           <li><a href="1910.php">1910</a></li>
           <li><a href="1920.php">1920</a></li>
           <li><a href="1930.php">1930</a></li>
-          <li><a href="1940.php">1940</a></li>
-          <li><a href="1950.php">1950</a></li>
-          <li><a href="1960.php">1960</a></li>
-          <li><a href="1970.php">1970</a></li>
-          <li><a href="1980.php">1980</a></li>
-          <li><a href="1990.php">1990</a></li>
-          <li><a href="2000.php">2000</a></li>
-          <li><a href="2010.php">2010</a></li>
-          <li><a href="2020.php">2020</a></li>
+          <li><a href="#">1940</a></li>
+          <li><a href="#">1950</a></li>
+          <li><a href="#">1960</a></li>
+          <li><a href="#">1970</a></li>
+          <li><a href="#">1980</a></li>
+          <li><a href="#">1990</a></li>
+          <li><a href="#">2000</a></li>
+          <li><a href="#">2010</a></li>
+          <li><a href="#">2020</a></li>
         </ul>
       </div>
     </div>

@@ -12,16 +12,18 @@ let navSlide = () => {
 navSlide();
 
 
-var checkBox = document.getElementById("#checkBox");
-var hiddenInputs = document.getElementsById('hidden');
+let navSlide2 = () => {
+  let menu = document.querySelector('.menu');
+  let nav2 = document.querySelector('.navLinks2')
+  let navLinks2 = document.querySelectorAll('navLinks2 li')
 
-for(var i = 0; != hiddenInputs.length; i++) {
-  if(checkBox.checked) {
-    hiddenInputs[i].style.display = "block";
-  } else {
-    hiddenInputs[i].style.display = "none";
-  }
+  menu.addEventListener('click', () => {
+    nav2.classList.toggle('navActive');
+    burgerMenu.classList.toggle('toggle');
+  });
 }
+
+navSlide2();
 
 
 let submit = document.querySelector('.noteSubmit');

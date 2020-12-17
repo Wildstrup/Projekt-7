@@ -11,7 +11,7 @@
       <ul class="navLinks2">
         <li><a href="index.php">Historie</a></li>
         <li><a href="#">Miraklet i Madrid</a></li>
-        <li><a href="#">Tidslinje</a></li>
+        <li><a href="1887.php">Tidslinje</a></li>
         <li><a href="#">Meritter</a></li>
         <li><a href="#">Spillerstatistikker</a></li>
         <li><a href="#">OB's trænere</a></li>
@@ -24,12 +24,10 @@
     <div>
       <div class="calendar">
         <ul>
-          <li class="prev"><a href="./index.php">&#10096;</a></li>
+          <li class="prev"><a href="index.php">&#10096;</a></li>
           <li class="next"><a href="1900.php">&#10097;</a></li>
           <li>
-            <input type="checkbox" name="checkBox" id="checkBox">
-            <label for="checkBox">1887 &#8681;</label>
-            <span onclick="showHide">1887 &#8681;</span>
+            <span>1887&#8681;</span>
           </li>
         </ul>
       </div>

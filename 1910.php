@@ -24,10 +24,10 @@
     <div>
       <div class="calendar">
         <ul>
-          <li class="prev"><a href="1887.php">&#10096;</a></li>
-          <li class="next"><a href="1910.php">&#10097;</a></li>
+          <li class="prev"><a href="1900.php">&#10096;</a></li>
+          <li class="next"><a href="1920.php">&#10097;</a></li>
           <li>
-            <span>1900&#8681;</span>
+            <span>1910&#8681;</span>
           </li>
         </ul>
       </div>
