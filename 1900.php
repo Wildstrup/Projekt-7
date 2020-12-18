@@ -23,7 +23,6 @@
 
 <article>
   <h2>Nye græsgange</h2>
-  <img class="widePicture" src="img/oldtimes.jpg" alt="Et gammelt billede fra OB">
   <div class="textBox">
     <p class="mainText">OB spillede i mange år på en bane, som de har fået i Munke Mose,
       men uden at have et baneanlæg. Det blev ændret i  1904 og der fik de indviet

@@ -23,7 +23,6 @@
 
 <article>
   <h2>Stabile tider</h2>
-  <img class="widePicture" src="img/oldtimes.jpg" alt="Et gammelt billede fra OB">
   <div class="textBox">
     <p class="mainText">Der sker ikke så meget i denne tid, som er nævneværdigt.
     Der er står ikke skrevet noget i denne tid.</p>

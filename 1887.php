@@ -23,7 +23,7 @@
 
 <article>
   <h2>Opstarten af klubben</h2>
-  <img class="widePicture" src="img/oldtimes.jpg" alt="Et gammelt billede fra OB">
+  <img class="widePicture" src="img/fball.png" alt="Et gammelt billede fra OB">
   <div class="textBox">
     <p class="mainText">OB blev stiftet i 1887 og  startede ud
       med at være en Cricket klub. Det er

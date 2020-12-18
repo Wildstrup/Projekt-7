@@ -23,7 +23,7 @@
 
 <article>
   <h2>Nye højder</h2>
-  <img class="widePicture" src="img/oldtimes.jpg" alt="Et gammelt billede fra OB">
+  <img class="widePicture" src="img/b1909.png" alt="Et gammelt billede fra OB mod b1909">
   <div class="textBox">
     <p class="mainText">OB gjorde det de længe havde ledt efter. De kvalificerede sig til
     danmarksmesterskabet. Det der gjorde det muligt var kvalifikationskampen mod B1909.

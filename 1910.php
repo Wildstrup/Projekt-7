@@ -23,7 +23,7 @@
 
 <article>
   <h2>Et kæmpe triumf</h2>
-  <img class="widePicture" src="img/oldtimes.jpg" alt="Et gammelt billede fra OB">
+  <img class="widePicture" src="img/1916.png" alt="Et gammelt billede fra OB">
   <div class="textBox">
     <p class="mainText">OB fejrede som klub 25 års jibilæum i 1912. Det var en stor
     milesten og ville fejre det med en fodboldkamp mod B93. Det var en glædelig
@@ -33,7 +33,6 @@
 
 <article>
   <h2>OB vinder provinsmesterskabet</h2>
-  <img class="widePicture" src="img/oldtimes.jpg" alt="Et gammelt billede fra OB">
   <div class="textBox">
     <p class="mainText">Efter en del år på bagen, lykkedes det endelig OB at vinde
     et mesterskab i 1916. Det var et af de mindre pokaler, men vigtighed er lige så stor.</p>
@@ -47,7 +46,6 @@
 
 <article>
   <h2>Den anden titel, der næsten kom hjem</h2>
-  <img class="widePicture" src="img/munkemose.jpg" alt="Miraklet i Madrid">
   <div class="textBox">
     <p class="mainText">Selvsamme år, som OB vandt deres provinsmesterskabet, fik de også
     muligheden for at spille om deltagelse danmarksmesterskabet. Holdet de stod over for var de samme
